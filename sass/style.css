@@ -52,11 +52,33 @@ a .mt-2 .text-muted {
   font-weight: bold;
 }
 
+.nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Inconsolata", monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #C1956E;
+}
+
+.navbar-toggler {
+  color: white;
+  border: 0px;
+  border-radius: 0px;
+}
+
 .heading h3 {
   color: white;
   font-family: "Inconsolata", monospace;
   font-size: 51px;
   font-weight: bold;
+}
+
+button:focus {
+  outline: 1px solid white !important;
 }
 
 .heading p {
@@ -81,7 +103,7 @@ a .mt-2 .text-muted {
 }
 
 .table {
-  height: 600px;
+  height: 580px;
   width: 100%;
   margin-bottom: 0px !important;
 }

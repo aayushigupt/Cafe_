@@ -27,6 +27,31 @@ a:hover { text-decoration: none!important; }
 
 
 a:active { text-decoration: none!important; }
+.nav-link {
+    color: white;
+    text-transform: uppercase;
+    font-family: $font-1;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: $brown-color;
+}
+
+.navbar-toggler{
+    color: white;
+   
+}
+
+.navbar button {
+    border: none!important;
+}
+
+button:focus {
+    outline: 0px solid white!important;
+    box-shadow: none;
+}
 
 
 
