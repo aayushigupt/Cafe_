@@ -38,6 +38,20 @@ a:active {
   top: 20px;
 }
 
+.nav-scroller {
+  margin-top: 10px;
+  padding-top: 35px;
+  margin: 0;
+  padding-bottom: 0px;
+  color: #ffff !important;
+  font-weight: 400;
+}
+
+a .mt-2 .text-muted {
+  color: white !important;
+  font-weight: bold;
+}
+
 .nav-link {
   color: white;
   text-transform: uppercase;
