@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap");
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-image: url("../assets/about/about-front.webp");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 520px;
+}
+
+a:link {
+  text-decoration: none !important;
+}
+
+a:visited {
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+a:active {
+  text-decoration: none !important;
+}
+
+.navigation {
+  background-color: #0F0F10;
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+
+.blog-header-logo img {
+  position: relative;
+  z-index: 10;
+  width: 170px;
+  top: 20px;
+}
+
+.nav-scroller {
+  margin-top: 10px;
+  padding-top: 35px;
+  margin: 0;
+  padding-bottom: 0px;
+  color: #ffff !important;
+  font-weight: 400;
+}
+
+a .mt-2 .text-muted {
+  color: white !important;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Inconsolata", monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #C1956E;
+}
+
+.navbar-toggler {
+  color: white;
+  border: 0px;
+  border-radius: 0px;
+}
+
+.landscape h2 {
+  padding-top: 14%;
+  font-family: "Inconsolata", monospace;
+  color: white;
+  font-size: 50px;
+}
+
+.section-a {
+  background-color: #0F0F10;
+  height: auto;
+  width: 100%;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.section-a .img-1 {
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+.section-a .img-2 {
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+}
+
+.section-a .about-cafe h1 {
+  font-family: "Inconsolata", monospace;
+  font-size: 45px;
+  color: white;
+}
+
+.section-a .about-cafe h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 45px;
+  color: #C1956E;
+  font-weight: bold;
+  line-height: 0.1px;
+}
+
+.section-a .about-cafe p {
+  color: white;
+  font-family: "Lato", sans-serif;
+  padding-top: 20px;
+}
+
+.section-b {
+  background-color: #C1956E;
+  height: auto;
+  width: 100%;
+  padding-top: 10rem;
+  padding-bottom: 4rem;
+}
+
+.section-b .more-about {
+  padding-left: 2rem;
+}
+
+.section-b .more-about h1 {
+  font-family: "Inconsolata", monospace;
+  font-size: 45px;
+  color: white;
+  font-weight: bold;
+}
+
+.section-b .more-about h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 45px;
+  color: #0F0F10;
+  font-weight: bold;
+  line-height: 0.1px;
+}
+
+.section-b .more-about p {
+  color: white;
+  font-family: "Lato", sans-serif;
+  padding-top: 20px;
+}
+
+.section-b .img-col {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 1519px) {
+  .section-b .container {
+    width: 1400px;
+  }
+}
+
+@media screen and (max-width: 1007px) {
+  .section-b .container {
+    width: 980px;
+  }
+}
+
+@media screen and (max-width: 989px) {
+  .section-b .c-1 {
+    height: 200px;
+    width: 220px;
+  }
+  .section-b .c-2 {
+    width: 160px;
+    right: 0rem;
+  }
+}
+
+footer {
+  background-color: #0F0F10;
+  height: auto;
+  padding-top: 9rem;
+  padding-bottom: 5rem;
+}
+
+footer h4 {
+  color: white;
+  font-family: "Inconsolata", monospace;
+}
+
+footer p {
+  color: white;
+  font-family: "Lato", sans-serif;
+  padding-top: 2rem;
+}
+
+footer svg {
+  height: 50px;
+  width: 50px;
+  color: white;
+  padding-left: 20px;
+}
+
+footer h5 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  padding-top: 10px;
+}
+/*# sourceMappingURL=about.css.map */

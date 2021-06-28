@@ -86,7 +86,7 @@ a .mt-2 .text-muted{
 }
 
 button:focus {
-    outline: 1px solid white!important;
+    outline: none!important;
 }
 
 .heading p {
@@ -831,7 +831,7 @@ button:focus {
 
 .testimony-section {
     position: relative;
-    background-image: url('../assets/home/niklas-ohlrogge-cLpBQqSMEWI-unsplash.jpg');
+    background-image: url('../assets/about/about-front.webp');
    padding-top: 50px;
     width: 100%;
     height: auto;
