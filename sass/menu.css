@@ -7,7 +7,7 @@ body {
   height: 100%;
   padding: 0px;
   margin: 0px;
-  background-color: #0F0F10;
+  background-color: #0F0F10 !important;
 }
 
 a:link {
@@ -63,6 +63,11 @@ button:focus {
   z-index: 10;
   width: 170px;
   top: 20px;
+}
+
+.menu-section {
+  background-color: #0F0F10;
+  padding-bottom: 0px;
 }
 
 .nav-scroller {
@@ -268,8 +273,8 @@ footer p {
 }
 
 footer svg {
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
   color: white;
   padding-left: 20px;
 }
