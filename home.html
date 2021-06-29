@@ -13,6 +13,8 @@
     <link rel="prefetch" href=" https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js"
     integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg=="
     crossorigin="anonymous" as="script">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!-- <script src="js/index.js"></script> -->
   <title>Cafe Deewane</title>
 </head>
@@ -78,14 +80,14 @@
      
       <div class="row resp items">
         <div class="col-4 ">
-          <img src="assets/home/image 2.webp" loading="lazy" class="resp-image img1">
+          <img src="assets/home/image 2.webp" data-aos="fade-up" data-aos-duration="3" loading="lazy" class="resp-image img1">
         </div>
         <div class="col-4">
 
           <!-- <p>Nothing brings people together like good food.</p> -->
         </div>
         <div class="col-4  justify-content-end align-items-center">
-          <img src="assets/home/image 3.webp " loading="lazy" class="resp-image img2">
+          <img src="assets/home/image 3.webp " loading="lazy" data-aos="fade-up" data-aos-duration="3" class="resp-image img2">
         </div>
       </div>
     </div>
@@ -443,18 +445,18 @@
                 <div class="container">
                   <div class="row">
                     <div class="col">
-                      <img src="assets/productsPng/homeImages/menu-image1.webp"
+                      <img src="assets/productsPng/homeImages/menu-image1.webp" data-aos="zoom-in" data-aos-duration="1500"
                         class="img-fluid img-responsive pt-3">
                     </div>
                     <div class="col">
-                      <img src="assets/productsPng/homeImages/menu-image2.webp" class="img-fluid img-responsive pt-3">
+                      <img src="assets/productsPng/homeImages/menu-image2.webp" data-aos="zoom-in" data-aos-duration="1500" class="img-fluid img-responsive pt-3">
                     </div>
                     <div class="w-100"></div>
                     <div class="col">
-                      <img src="assets/productsPng/homeImages/menu-image3.webp" class="img-fluid img-responsive pt-3">
+                      <img src="assets/productsPng/homeImages/menu-image3.webp" data-aos="zoom-in" data-aos-duration="1500" class="img-fluid img-responsive pt-3">
                     </div>
                     <div class="col">
-                      <img src="assets/productsPng/homeImages/menu-image4.webp"
+                      <img src="assets/productsPng/homeImages/menu-image4.webp" data-aos="zoom-in" data-aos-duration="1500"
                         class="img-fluid img-responsive pt-3">
                     </div>
                   </div>
@@ -469,25 +471,25 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-3 col-sm-3 text-center">
-              <img src="assets/productsPng/homeImages/cart-image1.webp" class="img-fluid img-responsive">
+              <img src="assets/productsPng/homeImages/cart-image1.webp" class="img-fluid img-responsive" data-aos="zoom-in-up" data-aos-duration="1500">
               <h5 class="item-head">MARINARA SAUCE PASTA</h5>
               <h5 class="item-price">₹168.00</h5>
               <button type="button" class="btn btn-lg">ADD TO CART</button>
             </div>
             <div class="col-lg-3 col-sm-3  text-center">
-              <img src="assets/productsPng/homeImages/cart-image2.webp" class="img-fluid img-responsive">
+              <img src="assets/productsPng/homeImages/cart-image2.webp" class="img-fluid img-responsive" data-aos="zoom-in-up" data-aos-duration="1500">
               <h5 class="item-head">VIRGIN MOJITO</h5>
               <h5 class="item-price">₹80.50</h5>
               <button type="button" class="btn btn-lg">ADD TO CART</button>
             </div>
             <div class="col-lg-3 col-sm-3  text-center">
-              <img src="assets/productsPng/homeImages/cart-image3.webp" class="img-fluid img-responsive">
+              <img src="assets/productsPng/homeImages/cart-image3.webp" class="img-fluid img-responsive" data-aos="zoom-in-up" data-aos-duration="1500">
               <h5 class="item-head">DARK CHOCOLATE WAFFLE</h5>
               <h5 class="item-price">₹168.00</h5>
               <button type="button" class="btn btn-lg">ADD TO CART</button>
             </div>
             <div class="col-lg-3 col-sm-3  text-center">
-              <img src="assets/productsPng/homeImages/cart-image4.webp" class="img-fluid img-responsive">
+              <img src="assets/productsPng/homeImages/cart-image4.webp" class="img-fluid img-responsive" data-aos="zoom-in-up" data-aos-duration="1500">
               <h5 class="item-head">VEG FRIED MOMOS</h5>
               <h5 class="item-price">₹101.50</h5>
               <button type="button" class="btn btn-lg">ADD TO CART</button>
@@ -638,6 +640,9 @@
   <!-- End Update Section -->
 
   <!-- Optional JavaScript -->
+  <script>
+    AOS.init();
+  </script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
