@@ -91,14 +91,28 @@ a .mt-2 .text-muted {
   padding-bottom: 5rem;
 }
 
+.section-a .co-1 {
+  padding-bottom: 3rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .section-a .img-1 {
   -webkit-transform: rotate(20deg);
           transform: rotate(20deg);
+  -webkit-animation: swing 5s infinite;
+          animation: swing 5s infinite;
 }
 
 .section-a .img-2 {
   -webkit-transform: rotate(-20deg);
           transform: rotate(-20deg);
+  -webkit-animation: swingOpp 5s infinite;
+          animation: swingOpp 5s infinite;
 }
 
 .section-a .about-cafe h1 {
@@ -121,12 +135,81 @@ a .mt-2 .text-muted {
   padding-top: 20px;
 }
 
+@-webkit-keyframes swing {
+  0% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+  50% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  100% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+}
+
+@keyframes swing {
+  0% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+  50% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  100% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+}
+
+@-webkit-keyframes swingOpp {
+  0% {
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+  50% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  100% {
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+}
+
+@keyframes swingOpp {
+  0% {
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+  50% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  100% {
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+}
+
 .section-b {
   background-color: #C1956E;
   height: auto;
   width: 100%;
   padding-top: 10rem;
   padding-bottom: 4rem;
+}
+
+.section-b .co-2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .section-b .more-about {
@@ -163,26 +246,90 @@ a .mt-2 .text-muted {
           align-items: center;
 }
 
-@media screen and (max-width: 1519px) {
-  .section-b .container {
-    width: 1400px;
-  }
-}
-
-@media screen and (max-width: 1007px) {
-  .section-b .container {
-    width: 980px;
-  }
-}
-
-@media screen and (max-width: 989px) {
+@media screen and (max-width: 981px) {
   .section-b .c-1 {
     height: 200px;
-    width: 220px;
+    width: 200px;
   }
   .section-b .c-2 {
+    height: 200px;
     width: 160px;
-    right: 0rem;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .section-a {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-a .img-1 {
+    height: 200px;
+    width: 160px;
+  }
+  .section-a .img-2 {
+    height: 200px;
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .section-a {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-a .img-1 {
+    height: 200px;
+    width: 160px;
+  }
+  .section-a .img-2 {
+    height: 200px;
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 349px) {
+  .section-a {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-a .img-1 {
+    height: 170px;
+    width: 110px;
+  }
+  .section-a .img-2 {
+    height: 170px;
+    width: 110px;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  .section-a {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-a .img-1 {
+    height: 200px;
+    width: 160px;
+  }
+  .section-a .img-2 {
+    height: 200px;
+    width: 160px;
   }
 }
 

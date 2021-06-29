@@ -13,6 +13,8 @@
     <link rel="prefetch" href=" https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js"
         integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg=="
         crossorigin="anonymous" as="script">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- <script src="js/index.js"></script> -->
     <title>Cafe Deewane</title>
 </head>
@@ -78,11 +80,11 @@
         <div class="section-a">
             <div class="container">
                 <div class="row">
-                    <div class="row col-lg-6">
-                        <img src="assets/about/asset-1.webp" class="img-fluid img-responsive img-1 pr-1">
-                        <img src="assets/about/asset-2.webp" class="img-fluid img-responsive img-2 pl-1">
+                    <div class="row col-lg-6 col-md-6 col-sm-12 co-1">
+                        <img src="assets/about/asset-1.webp" class="img-fluid img-responsive img-1 pr-1 col-sm-6 col-lg-6">
+                        <img src="assets/about/asset-2.webp"  class="img-fluid img-responsive img-2 pl-1 col-sm-6 col-lg-6">
                     </div>
-                    <div class="about-cafe col-lg-6">
+                    <div class="about-cafe col-md-6 col-sm-12 col-lg-6">
                         <h2>Discover</h2>
                         <h1>ABOUT CAFE DEEWANE</h1>
                         <p>
@@ -113,9 +115,9 @@
                         </p>
                     </div>
                     <div class="img-col col-lg-6 col-md-6 col-sm-12">
-                        <div class="row">
-                            <img src="assets/about/component-2.webp" class="img-fluid img-responsive c-1 col-lg-6 pl-0 pr-0" height="200" width="300" >
-                            <img src="assets/about/component-1.webp" class="img-fluid img-responsive col-lg-6 pl-0 pr-0 c-2">
+                        <div class="row co-2">
+                            <img src="assets/about/component-2.webp" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="150"  class="img-fluid img-responsive c-1 col-lg-6 pl-0 pr-0" height="200" width="300" >
+                            <img src="assets/about/component-1.webp" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="150" class="img-fluid img-responsive col-lg-6 pl-0 pr-0 c-2">
                         </div>
                     </div>
                 </div>
@@ -190,6 +192,9 @@
     </div>
 
     <!-- Optional JavaScript -->
+    <script>
+        AOS.init();
+      </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
