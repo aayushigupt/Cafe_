@@ -284,12 +284,4 @@ footer h5 {
   font-family: "Lato", sans-serif;
   padding-top: 10px;
 }
-
-.digit {
-  opacity: 0;
-}
-
-.digit.visible {
-  opacity: 1;
-}
 /*# sourceMappingURL=menu.css.map */
