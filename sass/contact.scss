@@ -114,6 +114,33 @@ button:focus {
             padding-bottom: 2rem;
         }
     }
+
+    .content-section {
+       
+      
+        h6 {
+            padding-left: 10rem;
+            color: white;
+            font-family: $font-1;
+        }
+
+        h4 {
+            padding-left: 10rem;
+            color: white;
+            font-family: $font-2;
+        }
+    }
+
+    button {
+        height: 50px;
+        width: 200px;
+        background-color: $brown-color;
+        margin-top: 3rem!important;
+        display: block;
+        margin: 0 auto; 
+        color: white;
+        font-size: 20px;
+    }
 }
 
 footer {
