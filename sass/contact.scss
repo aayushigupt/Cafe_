@@ -92,7 +92,10 @@ button:focus {
     }
     .section-a {
         .img-3 {
+            position: absolute;
+            right: 0;
             float: right;
+            top: 18rem;
         }
     }
     .section-b {
@@ -105,8 +108,8 @@ button:focus {
         .img-4 {
             display: block;
             margin: 0 auto;
-            padding-top: 8rem;
-            padding-left: 5rem;
+            padding-top: 5rem;
+            padding-left: 7 rem;
          
         }
         .img-5 {
@@ -126,6 +129,10 @@ button:focus {
             float: right;
             height: 200px;
             width: 280px;
+            position: absolute;
+            right: 0;
+            float: right;
+            top: 20rem;
         }
     }
     .section-b {
@@ -162,6 +169,10 @@ button:focus {
             float: right;
             height: 170px;
             width: 240px;
+            position: absolute;
+            right: 0;
+            float: right;
+            top: 21rem;
         }
     }
     .section-b {
@@ -201,6 +212,10 @@ button:focus {
             float: right;
             height: 140px;
             width: 180px;
+            position: absolute;
+            right: 0;
+            float: right;
+            top: 22rem;
         }
     }
     .section-b {
@@ -229,6 +244,7 @@ button:focus {
 }
 @media screen and (max-width: 386px) {
     .section-a {
+      
         .img-1 {
             height: 100px;
             width: 130px;
@@ -237,6 +253,10 @@ button:focus {
             float: right;
             height: 100px;
             width: 130px;
+            position: absolute;
+            right: 0;
+            float: right;
+            top: 23rem;
         }
     }
     .section-b {
