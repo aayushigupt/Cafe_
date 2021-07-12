@@ -103,6 +103,8 @@ button:focus {
     
     
   }
+
+
   
   #slider-image-container {
     /*This needs to be large enough to house all Images*/
@@ -212,4 +214,8 @@ footer {
         font-family: $font-2;
         padding-top: 10px;
     }
+}
+
+.item {
+    cursor: pointer;
 }

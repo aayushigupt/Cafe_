@@ -1,16 +1,16 @@
 $(document).ready(function () {
     var owl = $('.owl-carousel');
     owl.owlCarousel({
-        items: 8,
+        items: 5,
         loop: true,
         margin: 20,
         autoplay: true,
       reverse: true,
         slideTransition: 'linear',
         autoplayTimeout: 0,
-        autoplaySpeed: 3000,
-        autoplayHoverPause: false
-
+        autoplaySpeed: 4000,
+        
+        dots: false,
     });
 
 });
@@ -23,11 +23,20 @@ $(document).ready(function () {
         loop: true,
         margin: 20,
         autoplay: true,
+        autoplayHoverPause:true,
         slideTransition: 'linear',
         autoplayTimeout: 0,
-        autoplaySpeed: 3000,
-        autoplayHoverPause: false
+        autoplaySpeed: 30,
+        
 
     });
 
 });
+
+$('.owl-carousel .item').on('mouseHover',function(e){
+    $(this).closest('.owl-carousel').trigger('stop.owl.autoplay');
+  })
+  $('.owl-carousel .item').on('mouseleave',function(e){
+    $(this).closest('.owl-carousel').trigger('play.owl.autoplay',[500]);
+  })
+
