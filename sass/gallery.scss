@@ -72,12 +72,15 @@ button:focus {
 @keyframes slidy {
     from {
       /*Has to be adjusted per Image amount.*/
-      
-      left: 0%;
+      transform: translateX(40%);
+    //   left: -10%;
     }
     to {
-      left: -43%;
+        transform: translateX(-65%);
+    //   left: 40%;
     }
+
+   
   }
   
   * {
@@ -93,7 +96,7 @@ button:focus {
   /*Slider Container*/
   #slider {
     /*Set to width of Page*/
-    width: 1400px;
+    width: 4000px;
     overflow: hidden;
     margin: 100px auto;
     /*development background*/
@@ -104,14 +107,15 @@ button:focus {
   #slider-image-container {
     /*This needs to be large enough to house all Images*/
     /*Take Image size, times by amount of Images (400x5=2000px)*/
-    width: 5000px;
+    width: 4000px;
   
       position: relative;
     /*Manually set centerish for Codepen*/
     left: 0;
     font-size: 0;
     /*Animation repeats forwards and backwards with rubber-banding effect*/
-    animation: slidy 10s infinite linear normal;
+    animation: slidy 20s infinite linear;
+    // animation-fill-mode: both;
   }
   
   #slider-image-container:hover {
@@ -136,6 +140,12 @@ button:focus {
   .img-4 {
       height: 400px;
       width: 300px;
+  }
+
+  .demo-image {
+      height: 500px;
+      width:500px;
+      background-color: black;
   }
   
   /*Image control*/
