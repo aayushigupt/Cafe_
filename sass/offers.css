@@ -92,7 +92,7 @@ button:focus {
 .offers-section p {
   color: white;
   font-family: "Lato", sans-serif;
-  padding-right: 10px;
+  padding-right: 10%;
 }
 
 .offers-section .color-black {
@@ -154,6 +154,7 @@ button:focus {
       -ms-flex-align: center;
           align-items: center;
   padding-left: 0%;
+  padding-right: 10%;
 }
 
 .offers-section .color-black button.splide__arrow.splide__arrow--prev {

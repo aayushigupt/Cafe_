@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap");
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  height: 560px;
+  background-color: #0F0F10 !important;
+}
+
+a:link {
+  text-decoration: none !important;
+}
+
+a:visited {
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+a:active {
+  text-decoration: none !important;
+}
+
+.navigation {
+  background-color: #0F0F10;
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+
+.blog-header-logo img {
+  position: relative;
+  z-index: 10;
+  width: 170px;
+  top: 20px;
+}
+
+.nav-scroller {
+  margin-top: 10px;
+  padding-top: 35px;
+  margin: 0;
+  padding-bottom: 0px;
+  color: #ffff !important;
+  font-weight: 400;
+}
+
+a .mt-2 .text-muted {
+  color: white !important;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Inconsolata", monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #C1956E;
+}
+
+.navbar-toggler {
+  color: white;
+  border: 0px;
+  border-radius: 0px;
+}
+
+footer {
+  background-color: #0F0F10;
+  height: auto;
+  padding-top: 9rem;
+  padding-bottom: 5rem;
+}
+
+footer h4 {
+  color: white;
+  font-family: "Inconsolata", monospace;
+}
+
+footer p {
+  color: white;
+  font-family: "Lato", sans-serif;
+  padding-top: 2rem;
+}
+
+footer svg {
+  height: 50px;
+  width: 50px;
+  color: white;
+  padding-left: 20px;
+}
+
+footer h5 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  padding-top: 10px;
+}
+
+.scroll-panel {
+  position: relative;
+}
+
+.scroll-panel .panel .orange {
+  background-color: orange;
+  height: 500px;
+}
+
+.scroll-panel .panel .green {
+  background-color: green;
+  height: 350px;
+}
+
+.scroll-panel .panel .red {
+  background-color: red;
+  height: 350px;
+}
+
+.scroll-panel .panel-2 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.scroll-panel .panel-2 .blue {
+  width: 760px;
+  background-color: blue;
+  height: 500px;
+}
+
+.scroll-panel .panel-2 .pink {
+  background-color: pink;
+  height: 350px;
+  width: 400px;
+}
+
+.scroll-panel .panel-2 .purple {
+  background-color: purple;
+  height: 350px;
+  width: 380px;
+}
+
+.content-panel {
+  background-color: white !important;
+}
+/*# sourceMappingURL=offers-try.css.map */

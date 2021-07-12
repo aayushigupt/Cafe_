@@ -14,15 +14,17 @@ gsap.fromTo(".offers-section", {
 gsap.timeline().fromTo(".heading", {
     y: -5000,
     duration: 6,
+    ease: "linear"
 }, {
     y: 0,
 }).fromTo(".off", {
     x: 5000,
-    duration: 3,
+    duration: 8,
 }, {
     x: 0,
 }).fromTo(".pl-5", {
-    y: 5000,
+    x: -5000,
+    duration: 10,
 }, {
-    y:0
+    x:0
 })
