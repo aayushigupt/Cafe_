@@ -218,5 +218,13 @@ footer h5 {
 
 .owl-carousel {
   margin-top: 5rem;
+  height: 40rem;
+}
+
+h1.heading {
+  font-family: "Inconsolata", monospace;
+  font-size: 45px;
+  color: #C1956E;
+  margin-top: 3rem;
 }
 /*# sourceMappingURL=gallery.css.map */

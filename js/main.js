@@ -1,16 +1,18 @@
 $(document).ready(function () {
     var owl = $('.owl-carousel');
     owl.owlCarousel({
-        items: 5,
+        items: 6,
         loop: true,
         margin: 20,
-        autoplay: true,
+        autoplay: 3000,
       reverse: true,
         slideTransition: 'linear',
         autoplayTimeout: 0,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 5000,
         autoplayHoverPause:true,
         dots: false,
+        
+        autoWidth: true,
         // itemsDesktop: [1400,5],
         // itemsDesktopSmall: [1100,4],
         // itemsTablet: [700,3],
@@ -31,7 +33,7 @@ $(document).ready(function () {
             items: 4,
           },
           1255 : {
-            items: 5
+            items: 6
           }
         }
     });
