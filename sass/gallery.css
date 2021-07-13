@@ -215,4 +215,8 @@ footer h5 {
 .item {
   cursor: pointer;
 }
+
+.owl-carousel {
+  margin-top: 5rem;
+}
 /*# sourceMappingURL=gallery.css.map */

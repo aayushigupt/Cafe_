@@ -2500,7 +2500,7 @@
 	Autoplay.Defaults = {
 		autoplay: false,
 		autoplayTimeout: 5000,
-		autoplayHoverPause: false,
+		autoplayHoverPause: true,
 		autoplaySpeed: false
 	};
 

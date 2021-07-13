@@ -9,8 +9,31 @@ $(document).ready(function () {
         slideTransition: 'linear',
         autoplayTimeout: 0,
         autoplaySpeed: 4000,
-        
+        autoplayHoverPause:true,
         dots: false,
+        // itemsDesktop: [1400,5],
+        // itemsDesktopSmall: [1100,4],
+        // itemsTablet: [700,3],
+        // itemsMobile: [500,1],
+        responsive: {
+          0 : {
+            items: 2,
+          },
+
+          480 : {
+            items: 3,
+          },
+
+          521 : {
+            items: 3,
+          },
+          1065 : {
+            items: 4,
+          },
+          1255 : {
+            items: 5
+          }
+        }
     });
 
 });
@@ -33,10 +56,9 @@ $(document).ready(function () {
 
 });
 
-$('.owl-carousel .item').on('mouseHover',function(e){
+$('.owl-carousel').on('mouseover',function(e){
     $(this).closest('.owl-carousel').trigger('stop.owl.autoplay');
   })
-  $('.owl-carousel .item').on('mouseleave',function(e){
+  $('.owl-carousel').on('mouseleave',function(e){
     $(this).closest('.owl-carousel').trigger('play.owl.autoplay',[500]);
   })
-
