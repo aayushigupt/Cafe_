@@ -72,6 +72,77 @@ a .mt-2 .text-muted {
   border-radius: 0px;
 }
 
+.offers-screen .panel {
+  width: 80%;
+  min-width: 700px;
+  margin: 5rem auto;
+  background-color: #C1956E;
+  height: auto;
+  padding: 3rem;
+}
+
+.offers-screen .panel h1.head-off {
+  font-size: 60px;
+  font-family: "Inconsolata", monospace;
+  color: #0F0F10;
+  font-weight: bold;
+}
+
+.offers-screen .panel p.para-off {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  color: #0F0F10;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+.offers-screen .panel button.button-off {
+  border-radius: 0px;
+  font-size: 15px;
+  background-color: black;
+  color: #C1956E;
+  font-weight: 500;
+  margin-top: 1rem;
+  width: 160px;
+}
+
+.offers-screen .section-panel {
+  background-color: white;
+  margin-top: 2rem;
+  height: 400px;
+  width: 100%;
+  min-width: 350px;
+  position: absolute;
+  top: -2rem;
+  right: 4rem;
+}
+
+.offers-screen .section-panel .off-circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #0F0F10;
+  position: absolute;
+  top: -2rem;
+  left: 3rem;
+  color: #C1956E;
+  padding-top: 12%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 765px) {
+  .offers-screen {
+    padding-right: 10px;
+    width: 50%;
+  }
+  .offers-screen .section-panel {
+    background-color: orange !important;
+    position: relative !important;
+    right: 0rem;
+  }
+}
+
 footer {
   background-color: #0F0F10;
   height: auto;
@@ -101,52 +172,5 @@ footer h5 {
   color: white;
   font-family: "Lato", sans-serif;
   padding-top: 10px;
-}
-
-.scroll-panel {
-  position: relative;
-}
-
-.scroll-panel .panel .orange {
-  background-color: orange;
-  height: 500px;
-}
-
-.scroll-panel .panel .green {
-  background-color: green;
-  height: 350px;
-}
-
-.scroll-panel .panel .red {
-  background-color: red;
-  height: 350px;
-}
-
-.scroll-panel .panel-2 {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-}
-
-.scroll-panel .panel-2 .blue {
-  width: 760px;
-  background-color: blue;
-  height: 500px;
-}
-
-.scroll-panel .panel-2 .pink {
-  background-color: pink;
-  height: 350px;
-  width: 400px;
-}
-
-.scroll-panel .panel-2 .purple {
-  background-color: purple;
-  height: 350px;
-  width: 380px;
-}
-
-.content-panel {
-  background-color: white !important;
 }
 /*# sourceMappingURL=offers-try.css.map */

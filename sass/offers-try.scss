@@ -84,6 +84,85 @@ a .mt-2 .text-muted{
 }
 
 
+.offers-screen {
+    
+    .panel {
+        width: 80%;
+        min-width: 700px;
+        margin: 5rem auto;
+        background-color: $brown-color;
+        height: auto;
+        padding: 3rem;
+
+        h1.head-off {
+            font-size: 60px;
+            font-family: $font-1;
+            color: $black-color;
+            font-weight: bold;
+        }
+
+        p.para-off{
+            font-size: 20px;
+            font-family: $font-2;
+            color: $black-color;
+            font-weight: 500;
+            margin-top: 2rem;
+        }
+
+        button.button-off {
+            border-radius: 0px;
+            font-size: 15px;
+            background-color: black;
+            color: $brown-color;
+            font-weight: 500;
+            margin-top: 1rem;
+            width: 160px;
+        }
+    }
+
+    .section-panel {
+        background-color: white;
+        margin-top: 2rem;
+        height: 400px;
+        width: 100%;
+        min-width: 350px;
+        position: absolute;
+        top: -2rem;
+        right: 4rem;
+        
+        .off-circle {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background-color: $black-color;
+            position: absolute;
+            top: -2rem;
+            left: 3rem;
+            color: $brown-color;
+            padding-top: 12%;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .offers-screen {
+        padding-right: 10px;
+        width: 50%;
+        .section-panel {
+            background-color: orange!important;
+            position: relative!important;
+            right: 0rem;
+        }
+    
+        .panel {
+            
+        }        
+    }
+}
+
+
 footer {
     background-color: $black-color;
     height: auto;
@@ -112,48 +191,3 @@ footer {
     }
 }
 
-.scroll-panel {
-    position: relative;
-    .panel {
-        .orange {
-            background-color: orange;
-            height: 500px;
-        }
-        .green {
-            background-color: green;
-            height: 350px;
-            
-        }
-        .red {
-            background-color: red;
-            height: 350px;
-            
-        }
-    }
-    .panel-2 {
-        position: absolute;
-        
-        top: 0%;
-        left:0%;
-        .blue {
-            width: 760px;
-            background-color: blue;
-            height: 500px;
-        }
-        .pink {
-            background-color: pink;
-            height: 350px;
-            width: 400px;
-        }
-        .purple {
-            background-color: purple;
-            height: 350px;
-            width: 380px;
-        }
-    }
-
-   
-}
-.content-panel {
-    background-color: white!important;
-}
