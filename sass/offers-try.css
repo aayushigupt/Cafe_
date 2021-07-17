@@ -141,8 +141,11 @@ a .mt-2 .text-muted {
     right: 0rem;
   }
   .offers-screen .section-panel .off-circle {
-    top: 19rem;
+    top: 20rem;
     left: 13rem;
+    height: 120px;
+    width: 120px;
+    font-size: 25px;
   }
   .offers-screen .panel {
     width: 90% !important;
