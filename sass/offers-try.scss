@@ -87,12 +87,15 @@ a .mt-2 .text-muted{
 .offers-screen {
     
     .panel {
-        width: 100%;
+        width: 80%;
         // min-width: 700px;
         margin: 5rem auto;
         background-color: $brown-color;
         height: auto;
-        padding: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
 
         h1.head-off {
             font-size: 60px;

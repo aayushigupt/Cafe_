@@ -73,11 +73,14 @@ a .mt-2 .text-muted {
 }
 
 .offers-screen .panel {
-  width: 100%;
+  width: 80%;
   margin: 5rem auto;
   background-color: #C1956E;
   height: auto;
-  padding: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
 }
 
 .offers-screen .panel h1.head-off {
