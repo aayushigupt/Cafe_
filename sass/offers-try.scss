@@ -142,9 +142,19 @@ a .mt-2 .text-muted{
             top: -2rem;
             left: 3rem;
             color: $brown-color;
-            padding-top: 10%;
+            padding-top: 7%;
             font-size: 30px;
             font-weight: bold;
+            justify-content: center;
+            align-items: center;
+            h1 {
+                font-size: 50px;
+                line-height: 1;
+            }
+
+            h3 {
+
+            }
         }
     }
 }
@@ -164,6 +174,14 @@ a .mt-2 .text-muted{
                 height: 120px;
                 width: 120px;
                 font-size: 25px;
+
+                h1 {
+                    font-size: 40px;
+                }
+
+                h6 {
+                    font-size: 13px;
+                }
             }
             
         }
@@ -178,7 +196,7 @@ a .mt-2 .text-muted{
 
 @media screen and (max-width:517px) {
     .off-circle {
-        left: 16rem!important;
+        left: 17rem!important;
     }
 }
 
