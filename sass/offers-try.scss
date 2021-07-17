@@ -149,7 +149,7 @@ a .mt-2 .text-muted{
     }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 767px) {
     .offers-screen {
         padding-right: 10px;
         // width: 50%;
@@ -160,7 +160,7 @@ a .mt-2 .text-muted{
 
             .off-circle {
                 top: 20rem;
-                left: 13rem;
+                left: 20rem;
                 height: 120px;
                 width: 120px;
                 font-size: 25px;
@@ -176,6 +176,29 @@ a .mt-2 .text-muted{
     }
 }
 
+@media screen and (max-width:517px) {
+    .off-circle {
+        left: 16rem!important;
+    }
+}
+
+@media screen and (max-width:403px) {
+    .off-circle {
+        left: 11rem!important;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .off-circle {
+        left: 10rem!important;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .off-circle {
+        left: 9rem!important;
+    }
+}
 
 footer {
     background-color: $black-color;

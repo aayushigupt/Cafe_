@@ -132,7 +132,7 @@ a .mt-2 .text-muted {
   font-weight: bold;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 767px) {
   .offers-screen {
     padding-right: 10px;
   }
@@ -142,7 +142,7 @@ a .mt-2 .text-muted {
   }
   .offers-screen .section-panel .off-circle {
     top: 20rem;
-    left: 13rem;
+    left: 20rem;
     height: 120px;
     width: 120px;
     font-size: 25px;
@@ -150,6 +150,30 @@ a .mt-2 .text-muted {
   .offers-screen .panel {
     width: 100% !important;
     margin: 0rem;
+  }
+}
+
+@media screen and (max-width: 517px) {
+  .off-circle {
+    left: 16rem !important;
+  }
+}
+
+@media screen and (max-width: 403px) {
+  .off-circle {
+    left: 11rem !important;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .off-circle {
+    left: 10rem !important;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .off-circle {
+    left: 9rem !important;
   }
 }
 
