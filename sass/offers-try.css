@@ -73,8 +73,7 @@ a .mt-2 .text-muted {
 }
 
 .offers-screen .panel {
-  width: 80%;
-  min-width: 700px;
+  width: 100%;
   margin: 5rem auto;
   background-color: #C1956E;
   height: auto;
@@ -111,7 +110,6 @@ a .mt-2 .text-muted {
   margin-top: 2rem;
   height: 400px;
   width: 100%;
-  min-width: 350px;
   position: absolute;
   top: -2rem;
   right: 4rem;
@@ -134,7 +132,6 @@ a .mt-2 .text-muted {
 @media screen and (max-width: 765px) {
   .offers-screen {
     padding-right: 10px;
-    width: 50%;
   }
   .offers-screen .section-panel {
     background-color: orange !important;
