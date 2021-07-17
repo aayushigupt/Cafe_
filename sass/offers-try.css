@@ -73,14 +73,14 @@ a .mt-2 .text-muted {
 }
 
 .offers-screen .panel {
-  width: 80%;
+  width: 90%;
   margin: 5rem auto;
   background-color: #C1956E;
   height: auto;
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
 }
 
 .offers-screen .panel h1.head-off {
@@ -111,7 +111,7 @@ a .mt-2 .text-muted {
 .offers-screen .section-panel {
   background-color: white;
   margin-top: 2rem;
-  height: 400px;
+  height: 420px;
   width: 100%;
   position: absolute;
   top: -2rem;
@@ -127,19 +127,26 @@ a .mt-2 .text-muted {
   top: -2rem;
   left: 3rem;
   color: #C1956E;
-  padding-top: 12%;
+  padding-top: 10%;
   font-size: 30px;
   font-weight: bold;
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 770px) {
   .offers-screen {
     padding-right: 10px;
   }
   .offers-screen .section-panel {
-    background-color: orange !important;
     position: relative !important;
     right: 0rem;
+  }
+  .offers-screen .section-panel .off-circle {
+    top: 19rem;
+    left: 13rem;
+  }
+  .offers-screen .panel {
+    width: 100% !important;
+    margin: 0rem;
   }
 }
 
