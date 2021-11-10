@@ -34,7 +34,17 @@ a:hover { text-decoration: none!important; }
 
 a:active { text-decoration: none!important; }
 
+.bg-black {
+    background-color: $black-color!important;
+    
+}
 
+.nav-item {
+    font-family: $font-1;
+    color: white;
+    padding-right: 10px;
+    padding-left: 5px;
+}
 
 .navigation {
     background-color: #0F0F10;
@@ -45,11 +55,11 @@ a:active { text-decoration: none!important; }
 .blog-header-logo img {
     position: relative;
     z-index: 10;
-    width: 170px;
-    top: 20px;
+    width: 100px;
+    top: 15px;
+    right: 150px;
     
 }
-
 .nav-scroller {
     margin-top: 10px;
     padding-top: 35px;
@@ -66,7 +76,7 @@ a .mt-2 .text-muted{
 }
 
  .nav-link {
-    color: white;
+    color: white!important;
     text-transform: uppercase;
     font-family: $font-1;
     font-size: 20px;
@@ -83,9 +93,11 @@ a .mt-2 .text-muted{
     border-radius: 0px;
 }
 
-
+nav.navbar {
+    padding-bottom: 20px!important;
+}
 .offers-screen {
-    
+    padding-top: 60px!important;
     .panel {
         width: 90%;
         // min-width: 700px;

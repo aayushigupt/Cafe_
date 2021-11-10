@@ -27,11 +27,15 @@ a:active {
 }
 
 .nav-link {
-  color: white;
+  color: white !important;
   text-transform: uppercase;
   font-family: "Inconsolata", monospace;
   font-size: 20px;
   font-weight: bold;
+}
+
+.bg-black {
+  background-color: #0F0F10 !important;
 }
 
 .nav-link:hover {
@@ -61,8 +65,20 @@ button:focus {
 .blog-header-logo img {
   position: relative;
   z-index: 10;
-  width: 170px;
-  top: 20px;
+  width: 100px;
+  top: 15px;
+  right: 150px;
+}
+
+.nav-item {
+  font-family: "Inconsolata", monospace;
+  color: white !important;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+nav.navbar {
+  padding-bottom: 20px !important;
 }
 
 .menu-section {

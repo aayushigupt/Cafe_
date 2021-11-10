@@ -28,8 +28,13 @@ a:hover { text-decoration: none!important; }
 
 
 a:active { text-decoration: none!important; }
+
+.bg-black {
+  background-color: $black-color!important;
+}
+
 .nav-link {
-    color: white;
+    color: white!important;
     text-transform: uppercase;
     font-family: $font-1;
     font-size: 20px;
@@ -54,7 +59,12 @@ button:focus {
     box-shadow: none;
 }
 
-
+.nav-item {
+  font-family: $font-1;
+  color: white!important;
+  padding-right: 10px;
+  padding-left: 5px;
+}
 
 .navigation {
     background-color: #0F0F10;
@@ -63,12 +73,68 @@ button:focus {
 }
 
 .blog-header-logo img {
-    position: relative;
-    z-index: 10;
-    width: 170px;
-    top: 20px;
-    
+  position: relative;
+  z-index: 10;
+  width: 100px;
+  top: 20px;
+  right: 150px;
 }
+@media screen and(max-width: 2700px) {
+  .blog-header-logo img {
+      position: relative;
+      z-index: 10;
+      width: 100px;
+      top: 15px;
+      right: 80px;
+  }
+}
+
+@media screen and(max-width: 1000px) {
+  .blog-header-logo img {
+      position: relative;
+      z-index: 10;
+      width: 100px;
+      top: 15px;
+      right: 100px;
+      
+  }
+ 
+
+}
+
+@media screen and(max-width: 770px) {
+  .blog-header-logo img {
+      position: relative;
+      z-index: 10;
+      width: 100px;
+      top: 15px;
+      right: 80px;
+  }
+ 
+}
+@media screen and(max-width: 550px) {
+  .blog-header-logo img {
+      position: relative;
+      z-index: 10;
+      width: 100px;
+      top: 15px;
+      right: 60px;
+  }
+  
+}
+
+@media screen and(max-width: 400px) {
+  .blog-header-logo img {
+      position: relative;
+      z-index: 10;
+      width: 100px;
+      top: 15px;
+      right: 60px;
+  }
+  
+}
+
+
 
 @keyframes slidy {
     from {

@@ -34,7 +34,7 @@ a:active {
 }
 
 .nav-link {
-  color: white;
+  color: white !important;
   text-transform: uppercase;
   font-family: "Inconsolata", monospace;
   font-size: 20px;
@@ -43,6 +43,10 @@ a:active {
 
 .nav-link:hover {
   color: #C1956E;
+}
+
+.bg-black {
+  background-color: #0F0F10 !important;
 }
 
 .navbar-toggler {
@@ -68,8 +72,16 @@ button:focus {
 .blog-header-logo img {
   position: relative;
   z-index: 10;
-  width: 170px;
-  top: 20px;
+  width: 100px;
+  top: 15px;
+  right: 150px;
+}
+
+.nav-item {
+  font-family: "Inconsolata", monospace;
+  color: white;
+  padding-right: 10px;
+  padding-left: 5px;
 }
 
 .landscape {
@@ -187,6 +199,56 @@ button:focus {
   font-size: 400px;
   -webkit-transform: scale(0.55, 1);
           transform: scale(0.55, 1);
+}
+
+@media screen and (max-width: 2700px) {
+  .blog-header-logo img {
+    position: relative;
+    z-index: 10;
+    width: 100px;
+    top: 15px;
+    right: 80px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .blog-header-logo img {
+    position: relative;
+    z-index: 10;
+    width: 100px;
+    top: 15px;
+    right: 100px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .blog-header-logo img {
+    position: relative;
+    z-index: 10;
+    width: 100px;
+    top: 15px;
+    right: 80px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .blog-header-logo img {
+    position: relative;
+    z-index: 10;
+    width: 100px;
+    top: 15px;
+    right: 60px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .blog-header-logo img {
+    position: relative;
+    z-index: 10;
+    width: 100px;
+    top: 15px;
+    right: 60px;
+  }
 }
 
 footer {

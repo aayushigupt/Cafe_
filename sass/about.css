@@ -15,6 +15,10 @@ body {
   height: 560px;
 }
 
+.bg-black {
+  background-color: #0F0F10 !important;
+}
+
 a:link {
   text-decoration: none !important;
 }
@@ -40,8 +44,13 @@ a:active {
 .blog-header-logo img {
   position: relative;
   z-index: 10;
-  width: 170px;
-  top: 20px;
+  width: 100px;
+  top: 15px;
+  right: 150px;
+}
+
+nav.navbar {
+  padding-bottom: 20px !important;
 }
 
 .nav-scroller {
@@ -59,7 +68,7 @@ a .mt-2 .text-muted {
 }
 
 .nav-link {
-  color: white;
+  color: white !important;
   text-transform: uppercase;
   font-family: "Inconsolata", monospace;
   font-size: 20px;
@@ -68,6 +77,13 @@ a .mt-2 .text-muted {
 
 .nav-link:hover {
   color: #C1956E;
+}
+
+.nav-item {
+  font-family: "Inconsolata", monospace;
+  color: white !important;
+  padding-right: 10px;
+  padding-left: 5px;
 }
 
 .navbar-toggler {
@@ -244,6 +260,62 @@ a .mt-2 .text-muted {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (max-width: 2700px) {
+  .blog-header-logo img {
+    position: relative;
+    z-index: 10;
+    width: 100px;
+    top: 15px;
+    right: 80px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .blog-header-logo img {
+    position: relative;
+    z-index: 10;
+    width: 100px;
+    top: 15px;
+    right: 100px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .blog-header-logo img {
+    position: relative;
+    z-index: 10;
+    width: 100px;
+    top: 15px;
+    right: 80px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .blog-header-logo img {
+    position: relative;
+    z-index: 10;
+    width: 100px;
+    top: 15px;
+    right: 60px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .table {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .blog-header-logo img {
+    position: relative;
+    z-index: 10;
+    width: 100px;
+    top: 15px;
+    right: 60px;
+  }
 }
 
 @media screen and (max-width: 981px) {
