@@ -25,17 +25,20 @@ a:active {
   text-decoration: none !important;
 }
 
+.bg-black {
+  background-color: #0F0F10 !important;
+}
+
 .navigation {
   background-color: #0F0F10;
   white-space: nowrap;
-  margin-bottom: 0;
 }
 
 .blog-header-logo img {
   position: relative;
   z-index: 10;
-  width: 170px;
-  top: 20px;
+  width: 100px;
+  top: 15px;
 }
 
 .nav-scroller {
@@ -52,8 +55,14 @@ a .mt-2 .text-muted {
   font-weight: bold;
 }
 
-.nav-link {
+.nav-item {
+  font-family: "Inconsolata", monospace;
   color: white;
+  padding-right: 10px;
+}
+
+.nav-link {
+  color: white !important;
   text-transform: uppercase;
   font-family: "Inconsolata", monospace;
   font-size: 20px;
@@ -68,6 +77,15 @@ a .mt-2 .text-muted {
   color: white;
   border: 0px;
   border-radius: 0px;
+}
+
+.navbar {
+  padding-bottom: 10px;
+}
+
+.navbar-nav {
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .heading h3 {
@@ -103,7 +121,7 @@ button:focus {
 }
 
 .table {
-  height: 580px;
+  height: 680px;
   width: 100%;
   margin-bottom: 0px !important;
 }
