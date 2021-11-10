@@ -39,6 +39,7 @@ a:active {
   z-index: 10;
   width: 100px;
   top: 15px;
+  right: 70px;
 }
 
 .nav-scroller {
